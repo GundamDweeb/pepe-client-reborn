@@ -1,11 +1,11 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import {
     Button,
     DialogContentText,
     TextField
-} from "@material-ui/core";
+} from "@mui/material";
 import { connect } from 'react-redux';
 import Web3Utils from "web3-utils";
 import TxDialog from "./TxDialog";

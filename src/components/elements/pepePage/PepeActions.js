@@ -1,7 +1,7 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import PropTypes from "prop-types";
-import {Button} from "@material-ui/core";
+import {Button} from "@mui/material";
 import { connect } from 'react-redux';
 import TransferDialog from "../actions/TransferDialog";
 import GiveNameDialog from "../actions/GiveNameDialog";

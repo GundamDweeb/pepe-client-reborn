@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import {
     FormControl, Input, InputLabel,
     Select
-} from "@material-ui/core";
+} from "@mui/material";
 import QueryTextual from "../../../../api/query_textual";
 import {QueryHelper} from "../../../../api/query_helper";
 import QueryChanger from "../QueryChanger";

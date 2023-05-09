@@ -1,5 +1,5 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import TxListItem from "./TxListItem";

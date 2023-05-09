@@ -1,10 +1,10 @@
 import React from 'react';
-import { withStyles } from "@material-ui/core/styles";
-import {AppBar, Hidden, Toolbar} from "@material-ui/core";
+import { withStyles } from "@mui/styles";
+import {AppBar, Hidden, Toolbar} from "@mui/material";
 import * as classNames from 'classnames';
 //import AdvancedLink from "../elements/util/AdvancedLink";
 import FooterLink from "../elements/util/FooterLink";
-import {Facebook, Instagram, Reddit, Telegram, Twitter} from "mdi-material-ui";
+import {Facebook, Instagram, Reddit, Twitter} from "mdi-material-ui";
 
 const styles = theme => ({
     root: {
@@ -70,7 +70,7 @@ class Footer extends React.Component {
                     <Toolbar className={classNames(classes.bar, classes.socialBar)}>
                         <FooterLink external to="https://twitter.com/cryptopepes"><Twitter className={classes.socialIcon}/></FooterLink>
                         <FooterLink external to="https://reddit.com/r/cryptopepe"><Reddit className={classes.socialIcon}/></FooterLink>
-                        <FooterLink external to="https://t.me/cryptopepes"><Telegram className={classes.socialIcon}/></FooterLink>
+                        {/* <FooterLink external to="https://t.me/cryptopepes"><Telegram className={classes.socialIcon}/></FooterLink> */}
                         <FooterLink external to="https://www.facebook.com/cryptopepes/"><Facebook className={classes.socialIcon}/></FooterLink>
                         <FooterLink external to="https://www.instagram.com/cryptopepes/"><Instagram className={classes.socialIcon}/></FooterLink>
                     </Toolbar>

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import Explorer from "../elements/explorer/Explorer";
 import {Query} from "../../api/query_helper";
-import {Store} from "@material-ui/icons";
-import {Typography} from "@material-ui/core";
+import {Store} from "@mui/icons-material";
+import {Typography} from "@mui/material";
 
 const styles = theme => ({
     root: {

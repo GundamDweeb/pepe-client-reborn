@@ -1,6 +1,6 @@
 import React from "react";
-import {Grid, Button} from "@material-ui/core";
-import {withStyles} from "@material-ui/core/styles/index";
+import {Grid, Button} from "@mui/material";
+import {withStyles} from "@mui/styles/index";
 import {Link} from "react-router-dom";
 import {Query} from "../../../api/query_helper";
 import SimplePepeGrid from "../grid/SimplePepeGrid";

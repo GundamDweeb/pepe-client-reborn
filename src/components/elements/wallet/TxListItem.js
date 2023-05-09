@@ -9,16 +9,16 @@ import {
     Typography,
     ListItemSecondaryAction,
     Tooltip
-} from "@material-ui/core";
+} from "@mui/material";
 import PropTypes from "prop-types";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import EthAccount from "../util/EthAccount";
 import {
     CloudUpload,
     Done, DoneAll,
     ExpandLess,
     ExpandMore, HourglassEmpty, Warning, Remove
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import Web3Utils from "web3-utils";
 import Moment from 'react-moment';
 import EtherscanBtn from "../util/EtherscanBtn";

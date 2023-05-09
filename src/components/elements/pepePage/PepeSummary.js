@@ -1,6 +1,6 @@
 import React from "react";
-import {Card, CardContent, CardActions, Typography, Button, Grid} from "@material-ui/core";
-import {withStyles} from "@material-ui/core/styles";
+import {Card, CardContent, CardActions, Typography, Button, Grid} from "@mui/material";
+import {withStyles} from "@mui/styles";
 import {TagHeart} from "mdi-material-ui";
 import PropTypes from "prop-types";
 import QueryTextual from "../../../api/query_textual";

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import Explorer from "../elements/explorer/Explorer";
 import { connect } from 'react-redux';
 import {Query} from "../../api/query_helper";
-import {ViewList} from "@material-ui/icons";
+import {ViewList} from "@mui/icons-material";
 import {hasAccount, isValidAccountAddress} from "../../util/web3AccountsUtil";
-import {Typography} from "@material-ui/core";
+import {Typography} from "@mui/material";
 import EthAccount from "../elements/util/EthAccount";
 
 const styles = theme => ({

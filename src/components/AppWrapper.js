@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { MuiThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@mui/styles";
 import PropTypes from 'prop-types';
 import pageContext from "../getPageContext";
-import {createTheme} from "../theming";
-import {CssBaseline} from "@material-ui/core";
+import {createGlobalTheme} from "../theming";
+import {CssBaseline} from "@mui/material";
 import CryptoPepeApp from "./CryptoPepeApp";
 import {withRouter} from "react-router-dom";
 
@@ -29,7 +29,7 @@ class AppWrapperInner extends React.Component {
                 state.uiTheme.direction !== props.uiTheme.direction
             )
         ) {
-            const nextTheme = createTheme(props.uiTheme);
+            const nextTheme = createGlobalTheme(props.uiTheme);
 
             return {
                 uiTheme: props.uiTheme,
@@ -63,9 +63,9 @@ class AppWrapperInner extends React.Component {
         return (
             <div>
                 <CssBaseline />
-                <MuiThemeProvider theme={this.state.theme}>
+                <ThemeProvider theme={this.state.theme}>
                     <CryptoPepeApp />
-                </MuiThemeProvider>
+                </ThemeProvider>
             </div>
         );
     }

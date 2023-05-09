@@ -1,8 +1,8 @@
 import React from "react";
-import {Typography} from "@material-ui/core";
+import {Typography} from "@mui/material";
 import PropTypes from "prop-types";
 import {Link} from "react-router-dom";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 
 //TODO: RTL-LTR support
 const styles = (theme) => ({

@@ -1,6 +1,6 @@
-import {createTheme} from "./theming";
+import {createGlobalTheme} from "./theming";
 
-const theme = createTheme({
+const theme = createGlobalTheme({
     direction: "ltr",
     paletteType: "light"
 });

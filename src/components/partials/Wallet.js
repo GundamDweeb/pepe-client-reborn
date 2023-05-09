@@ -1,12 +1,12 @@
 import React from 'react';
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import {
     Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, ListSubheader, Button, Typography, Grid
-} from "@material-ui/core";
+} from "@mui/material";
 import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 import walletActionTypes from "../../reducers/wallet/walletActionTypes";
-import CloseIcon from '@material-ui/icons/Close';
+import CloseIcon from '@mui/icons-material/Close';
 import LiveTxList from "../elements/wallet/LiveTxList";
 import EthAccount from "../elements/util/EthAccount";
 import ChangeUsernameDialog from "../elements/actions/ChangeUsernameDialog";

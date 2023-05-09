@@ -2,9 +2,9 @@ import React from "react";
 import {
     Card, CardActions, CardContent, CardMedia, IconButton,
     Typography
-} from "@material-ui/core";
-// import ShareIcon from '@material-ui/icons/Share';
-import { withStyles } from "@material-ui/core/styles";
+} from "@mui/material";
+// import ShareIcon from '@mui/icons-material/Share';
+import { withStyles } from "@mui/styles";
 import PropTypes from "prop-types";
 import AppStyle from "../../../style.scss";
 import {Link} from "react-router-dom";

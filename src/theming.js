@@ -1,5 +1,5 @@
-import {green, orange} from "@material-ui/core/colors";
-import { createMuiTheme } from "@material-ui/core/styles";
+import {green, orange} from "@mui/material/colors";
+import { createTheme } from '@mui/material/styles';
 
 const primaryColor = green;
 const secondaryColor = orange;
@@ -24,7 +24,7 @@ const headlineDefaults = (theme) => ({
     color: theme.paletteType === "light" ? "rgba(0, 0, 0, 0.87)" : "#fff"
 });
 
-export const createTheme = (theme) => createMuiTheme({
+export const createGlobalTheme = (theme) => createTheme({
     direction: theme.direction,
     palette: {
         primary: {

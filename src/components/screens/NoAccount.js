@@ -1,6 +1,6 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
-import {Button, Grid, Typography} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {Button, Grid, Typography} from "@mui/material";
 import AdvancedLink from "../elements/util/AdvancedLink";
 import Web3StatusRedirector from "./Web3StatusRedirector";
 

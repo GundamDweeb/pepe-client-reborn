@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import {
     Tab, Tabs, Grid, Divider
-} from "@material-ui/core";
+} from "@mui/material";
 import QueryChanger from "../QueryChanger";
 import OrderPick from "./OrderPick";
 

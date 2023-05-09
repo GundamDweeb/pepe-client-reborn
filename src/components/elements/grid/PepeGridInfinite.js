@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import MasonryInfiniteScroller from 'react-masonry-infinite';
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import PropTypes from "prop-types";
 import PepeGridItem from "./PepeGridItem";
-import {Button, Grid} from "@material-ui/core";
+import {Button, Grid} from "@mui/material";
 import {QueryData, QueryError} from "../../../api/model";
 import PepeAPI from "../../../api/api";
 import {Query} from "../../../api/query_helper";

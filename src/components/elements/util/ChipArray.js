@@ -1,7 +1,7 @@
 import React from "react";
-import {Chip} from "@material-ui/core";
+import {Chip} from "@mui/material";
 import PropTypes from "prop-types";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 
 const styles = (theme) => ({
     root: {

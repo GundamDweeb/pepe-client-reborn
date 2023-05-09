@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Grid, Typography, Table, TableBody, TableCell, TableHead, TableRow} from '@material-ui/core';
-import {withStyles} from '@material-ui/core/styles';
+import {Grid, Typography, Table, TableBody, TableCell, TableHead, TableRow} from '@mui/material';
+import {withStyles} from '@mui/styles';
 import {Link} from "react-router-dom";
 import {connect} from 'react-redux';
 import {BN} from "web3-utils";

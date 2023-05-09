@@ -1,7 +1,7 @@
 import React from "react";
 import {Redirect} from "react-router-dom";
 import {getDefaultAccount} from "../../util/web3AccountsUtil";
-import connect from "react-redux/es/connect/connect";
+import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
 

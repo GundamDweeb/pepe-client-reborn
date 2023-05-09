@@ -1,7 +1,7 @@
 import React from "react";
-import {Grid, Typography, Button} from "@material-ui/core";
+import {Grid, Typography, Button} from "@mui/material";
 import {Link} from "react-router-dom";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import MarketPreview from "../elements/home/MarketPreview";
 import RoundedStyle from "../styles/rounded.scss";
 import BigQuotes from "../styles/BigQuotes.scss";

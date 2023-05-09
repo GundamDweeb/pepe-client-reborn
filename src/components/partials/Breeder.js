@@ -1,11 +1,11 @@
 import React from 'react';
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import {
     Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, Grid, Hidden, IconButton
-} from "@material-ui/core";
+} from "@mui/material";
 import {connect} from 'react-redux';
 import breederActionTypes from "../../reducers/breeder/breederActionTypes";
-import CloseIcon from '@material-ui/icons/Close';
+import CloseIcon from '@mui/icons-material/Close';
 import {SwapHorizontal, SwapVertical} from "mdi-material-ui";
 import PepeAPI from "../../api/api";
 import makeCancelable from "makecancelable";

@@ -6,7 +6,7 @@ import {
     Button,
     DialogContentText,
     TextField, Typography
-} from "@material-ui/core";
+} from "@mui/material";
 
 import BidAuctionDialog from "./BidAuctionDialog";
 import PepeAuctionChart from "../../pepePage/PepeAuctionChart";
@@ -14,7 +14,7 @@ import PepeAuctionChart from "../../pepePage/PepeAuctionChart";
 import Web3Utils from "web3-utils";
 import {getDefaultAccount} from "../../../../util/web3AccountsUtil";
 import PepeGridItem from "../../grid/PepeGridItem";
-import {withStyles} from "@material-ui/core/styles/index";
+import {withStyles} from "@mui/styles/index";
 import TxDialog from "../TxDialog";
 //import {saleAddr} from "../../../../web3Settings";
 import {saleRebornAddr} from "../../../../web3Settings";

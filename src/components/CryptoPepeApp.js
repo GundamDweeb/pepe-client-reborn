@@ -1,6 +1,6 @@
 import React from "react";
 import MainContent from "./partials/MainContent";
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import Header from "./partials/Header";
 import Wallet from "./partials/Wallet";
 import Footer from "./partials/Footer";

@@ -1,6 +1,6 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
-import {Grid, Typography} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {Grid, Typography} from "@mui/material";
 import { targetNetID } from "../../web3Settings";
 import Web3StatusRedirector from "./Web3StatusRedirector";
 

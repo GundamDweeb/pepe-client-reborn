@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import classNames from 'classnames/bind';
 import Web3Utils from "web3-utils";

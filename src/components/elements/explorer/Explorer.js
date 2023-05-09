@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import PepeGridInfinite from "../grid/PepeGridInfinite";
 import {
     Divider
-} from "@material-ui/core";
+} from "@mui/material";
 import {Query} from "../../../api/query_helper";
 import FilterBar from "./FilterBar";
 import { withRouter } from 'react-router'

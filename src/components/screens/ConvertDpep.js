@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import { withStyles } from "@material-ui/core/styles";
-import {Grid, Typography, Button} from '@material-ui/core';
+import { withStyles } from "@mui/styles";
+import {Grid, Typography, Button} from '@mui/material';
 import Web3Utils from 'web3-utils';
 import Web3StatusRedirector from "./Web3StatusRedirector";
 

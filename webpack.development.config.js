@@ -22,20 +22,28 @@ module.exports = [
             modules: [
                 path.resolve('./assets'),
                 path.resolve('./node_modules')
-            ]
+            ],
+            fallback: {
+                "stream": require.resolve("stream-browserify"),
+                "http": require.resolve("stream-http"),
+                "url": false,
+                "assert": false
+             },
+    
         },
         devtool: 'source-map',
         devServer: {
-            contentBase: "dist-dev",
+            static: "dist-dev",
             hot: true,
             historyApiFallback: true,
             compress: true,
             host: 'localhost',
             port: '8080',
-            watchOptions: {
-                aggregateTimeout: 300,
-                poll: 1000
-            },
+           
+        },
+        watchOptions: {
+            aggregateTimeout: 300,
+            poll: 1000
         },
         module: {
             rules: [
@@ -81,6 +89,7 @@ module.exports = [
                 }
             ],
         },
+        
         plugins: [
             new HtmlWebPackPlugin({
                 template: "./src/index.html",
@@ -93,7 +102,7 @@ module.exports = [
                     to: ''
                 }
             ]),
-            new webpack.NamedModulesPlugin(),
+            //new webpack.NamedModulesPlugin(),
             new webpack.HotModuleReplacementPlugin()
         ]
     }

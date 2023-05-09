@@ -1,5 +1,5 @@
 import React from "react";
-import Snackbar from '@material-ui/core/Snackbar';
+import Snackbar from '@mui/material/Snackbar';
 import ReporterContent from "./ReporterContent";
 import ActionDialog from "../util/Closeable";
 import PropTypes from "prop-types";

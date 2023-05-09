@@ -1,6 +1,6 @@
 import React from "react";
-import {Button, Modal, Paper, Typography} from "@material-ui/core";
-import {withStyles} from "@material-ui/core/styles";
+import {Button, Modal, Paper, Typography} from "@mui/material";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import Blockies from "ethereum-blockies";
 import classNames from 'classnames/bind';

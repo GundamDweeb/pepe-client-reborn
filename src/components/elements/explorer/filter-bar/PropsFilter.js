@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import {
     Divider,
     FormControl, FormGroup, FormHelperText, IconButton, Input, InputLabel,
     Select, MenuItem
-} from "@material-ui/core";
-import AddIcon from '@material-ui/icons/Add';
+} from "@mui/material";
+import AddIcon from '@mui/icons-material/Add';
 import QueryTextual from "../../../../api/query_textual";
 import QueryChanger from "../QueryChanger";
 import ChipArray from "../../util/ChipArray";

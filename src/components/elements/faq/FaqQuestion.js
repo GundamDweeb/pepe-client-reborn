@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 import {
     Typography,
-    ExpansionPanel,
-    ExpansionPanelSummary,
-    ExpansionPanelDetails
-} from "@material-ui/core";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+    Accordion,
+    AccordionSummary,
+    AccordionDetails
+} from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import PropTypes from "prop-types";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 
 const styles = theme => ({
     heading: {
@@ -29,14 +29,14 @@ class FaqQuestion extends Component {
     render() {
         const classes = this.props.classes;
         return (
-            <ExpansionPanel>
-                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon/>}>
+            <Accordion>
+                <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                     <div className={classes.heading}>{this.props.question}</div>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                </AccordionSummary>
+                <AccordionDetails>
                     <div className={classes.text} dangerouslySetInnerHTML={{__html: this.props.answer}}/>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
+                </AccordionDetails>
+            </Accordion>
         )
     }
 

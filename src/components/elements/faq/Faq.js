@@ -1,7 +1,7 @@
 import React from "react";
-import {Grid, Typography} from "@material-ui/core";
+import {Grid, Typography} from "@mui/material";
 import FaqQuestion from "./FaqQuestion";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 
 const styles = theme => ({

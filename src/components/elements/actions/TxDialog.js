@@ -5,7 +5,7 @@ import {
     Dialog, DialogActions,
     DialogContent,
     DialogTitle
-} from "@material-ui/core";
+} from "@mui/material";
 import ActionDialog from "../util/Closeable";
 import TrackedTx from "../wallet/TrackedTx";
 import Web3Loading from "../util/Web3Loading";

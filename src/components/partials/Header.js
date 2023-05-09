@@ -2,11 +2,11 @@ import React from 'react';
 import { findDOMNode } from 'react-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@mui/styles";
 import {
     AppBar, Toolbar, Typography, IconButton, Tooltip, Hidden,
     Popover, List, ListItem, ListItemIcon, ListItemText, Divider
-} from "@material-ui/core";
+} from "@mui/material";
 import AppStyle from "../../style.scss";
 import themeActionTypes from "../../reducers/theme/themeActionTypes";
 import walletActionTypes from "../../reducers/wallet/walletActionTypes";
@@ -15,7 +15,7 @@ import {
     // FormatTextdirectionLToR, FormatTextdirectionRToL,
     AccountBalanceWallet, Menu, ViewList, Store, HelpOutline, InfoOutlined,
     QuestionAnswer
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import {CubeOutline, LightbulbOnOutline, LightbulbOutline, Pickaxe, SwapHorizontal} from 'mdi-material-ui';
 import {Link} from "react-router-dom";
 import AdvancedLink from "../elements/util/AdvancedLink";

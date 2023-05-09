@@ -1,7 +1,7 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PepeGridItem from "../grid/PepeGridItem";
-import {Hidden} from "@material-ui/core";
+import {Hidden} from "@mui/material";
 import PropTypes from "prop-types";
 import loadablePepeCollection from "../grid/loadablePepeCollection";
 

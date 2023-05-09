@@ -1,10 +1,10 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import {
     Button,
     DialogContentText
-} from "@material-ui/core";
+} from "@mui/material";
 import { connect } from 'react-redux';
 import TxDialog from "./TxDialog";
 //import {cozyAddr, saleAddr} from "../../../web3Settings";

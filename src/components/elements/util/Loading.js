@@ -1,6 +1,6 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles/index";
-import {LinearProgress, CircularProgress} from "@material-ui/core";
+import {withStyles} from "@mui/styles/index";
+import {LinearProgress, CircularProgress} from "@mui/material";
 import PropTypes from "prop-types";
 
 const stylesBar = (theme) => ({

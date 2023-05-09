@@ -1,6 +1,6 @@
 import React from "react";
-import {Typography, List, ListItem, ListItemIcon, ListItemText} from "@material-ui/core";
-import {withStyles} from "@material-ui/core/styles";
+import {Typography, List, ListItem, ListItemIcon, ListItemText} from "@mui/material";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import QueryTextual from "../../../api/query_textual";
 import {Eye, Tilde, ContentCut, TshirtCrew, Tie, Glasses} from "mdi-material-ui";

@@ -1,11 +1,11 @@
 import React from "react";
-import {Popover} from "@material-ui/core";
+import {Popover} from "@mui/material";
 import PropTypes from "prop-types";
-import {List, ListItem, ListItemIcon, ListItemText} from "@material-ui/core";
+import {List, ListItem, ListItemIcon, ListItemText} from "@mui/material";
 import {GenderFemale, GenderMale, TagHeart} from "mdi-material-ui";
 import breederActionTypes from "../../../../reducers/breeder/breederActionTypes";
 import {connect} from "react-redux";
-import {Close} from "@material-ui/icons";
+import {Close} from "@mui/icons-material";
 import Closeable from "../../util/Closeable";
 
 

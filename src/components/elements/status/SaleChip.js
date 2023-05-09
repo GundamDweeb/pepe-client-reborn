@@ -1,8 +1,8 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
+import {withStyles} from "@mui/styles";
 import PropTypes from "prop-types";
 import {Tag} from "mdi-material-ui";
-import {Chip} from "@material-ui/core";
+import {Chip} from "@mui/material";
 import PriceText from "../util/PriceText";
 
 const styles = (theme) => ({

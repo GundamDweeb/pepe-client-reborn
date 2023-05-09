@@ -1,6 +1,6 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
-import {Button, Card, CardContent, Grid, Typography} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {Button, Card, CardContent, Grid, Typography} from "@mui/material";
 import PropTypes from "prop-types";
 import {withLoading} from "../utils/WithFetching";
 import PepeAPI from "../../api/api";

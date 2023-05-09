@@ -1,6 +1,6 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
-import {Typography, Button, Card, CardMedia, CardContent, CardActions, Grid} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {Typography, Button, Card, CardMedia, CardContent, CardActions, Grid} from "@mui/material";
 import PropTypes from "prop-types";
 
 const styles = theme => ({

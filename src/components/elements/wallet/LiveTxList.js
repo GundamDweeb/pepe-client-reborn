@@ -1,8 +1,8 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
-import {List, ListItemText, ListItem, Collapse} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {List, ListItemText, ListItem, Collapse} from "@mui/material";
 import {connect} from 'react-redux';
-import {ExpandLess, ExpandMore} from "@material-ui/icons";
+import {ExpandLess, ExpandMore} from "@mui/icons-material";
 import TrackedTx from "./TrackedTx";
 import {forgetTX} from 'redapp/es/tracking/transactions/actions';
 

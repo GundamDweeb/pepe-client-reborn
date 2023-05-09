@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { withStyles } from "@material-ui/core/styles";
-import { Grid } from "@material-ui/core";
+import { withStyles } from "@mui/styles";
+import { Grid } from "@mui/material";
 import CooldownFilter from "./filter-bar/CooldownFilter";
 import NameFilter from "./filter-bar/NameFilter";
 import PropsFilter from "./filter-bar/PropsFilter";

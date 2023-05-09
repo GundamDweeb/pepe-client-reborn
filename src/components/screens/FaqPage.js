@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Faq from "../elements/faq/Faq";
-import {withStyles} from "@material-ui/core/styles";
-import {Grid, Typography} from "@material-ui/core";
+import {withStyles} from "@mui/styles";
+import {Grid, Typography} from "@mui/material";
 import faqData from "./faq.json";
 
 
