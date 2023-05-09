@@ -26,8 +26,8 @@ module.exports = [
             fallback: {
                 "stream": require.resolve("stream-browserify"),
                 "http": require.resolve("stream-http"),
-                "url": false,
-                "assert": false
+                "url": require.resolve("url/"),
+                "assert": require.resolve("assert/")
              },
     
         },
@@ -89,7 +89,9 @@ module.exports = [
                 }
             ],
         },
-        
+        optimization: {
+            moduleIds: 'named'
+         },
         plugins: [
             new HtmlWebPackPlugin({
                 template: "./src/index.html",

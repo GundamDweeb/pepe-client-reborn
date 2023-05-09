@@ -52,6 +52,7 @@
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.12.3",
     "@mui/styles": "^5.12.3",
+    "assert": "^2.0.0",
     "backoff": "2.5.0",
     "classnames": "2.2.5",
     "eth-block-tracker-es5": "2.3.2",
@@ -73,6 +74,7 @@
     "redux-thunk": "2.2.0",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
+    "url": "^0.11.0",
     "web3": "1.9.0",
     "web3-utils": "1.9.0"
   }
